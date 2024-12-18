@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CENTRIC", "CENTRIC.csproj", "{18BCF0EC-5364-4149-852D-808DB62F6259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BCF0EC-5364-4149-852D-808DB62F6259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BCF0EC-5364-4149-852D-808DB62F6259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BCF0EC-5364-4149-852D-808DB62F6259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BCF0EC-5364-4149-852D-808DB62F6259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0361BE51-D401-4213-97E4-593689F7B89E}
+	EndGlobalSection
+EndGlobal
