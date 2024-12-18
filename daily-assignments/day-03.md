@@ -1,4 +1,4 @@
-# Day 1 - 8th Dec, 2024
+# Day 3 - 10th Dec, 2024
 
 ## Write about:
 
@@ -21,7 +21,7 @@
 
 ---
 
-### Code
+## Code
 
 ```C#
 
