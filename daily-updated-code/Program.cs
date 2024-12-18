@@ -8,12 +8,12 @@ class Display
     static void Main(string[] args)
     {
         // Set the start and end of the valid day range
-        int start = 1, end = 1; // Example: only Day 1 is valid. You can extend this range as needed.
+        int start = 1, end = 2;
 
-        // This variable will help us keep track of whether the user entered a valid day
+        // This variable keeps track of whether the user entered a valid day
         bool validSelection = false;
 
-        // This loop will keep asking the user for a valid day until they enter a correct one
+        // This loop asks the user for a valid day until they enter a correct one
         while (!validSelection)
         {
             // Prompt the user to select a day
@@ -28,6 +28,13 @@ class Display
                     // If the user selects day 1,
                     // call Days01.Run() and set validSelection to true to stop the loop
                     Day01.Run();
+                    validSelection = true;
+                    break;
+
+                case "2":
+                    // If the user selects day 2,
+                    // call Days01.Run() and set validSelection to true to stop the loop
+                    Day02.Run();
                     validSelection = true;
                     break;
 
