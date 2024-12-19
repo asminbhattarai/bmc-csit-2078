@@ -38,7 +38,7 @@ public static void RandomFxn(ref int a, out int b)
     b = 5;   // Assigns the value 5 to 'b'
 }
 
-// Run method that runs the code for Day 03 in Program.cs
+// Main method
 public static void Run()
 {
     // Arrays: Arrays store multiple values of the same type
