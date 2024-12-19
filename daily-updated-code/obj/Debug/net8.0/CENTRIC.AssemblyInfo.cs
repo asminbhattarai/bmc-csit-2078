@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CENTRIC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba6a8b5bf41f9938b4b0e47c3aad0ab8be455dd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+770943666cf0265b350c1189e05f4d7b4cac81e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CENTRIC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CENTRIC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
