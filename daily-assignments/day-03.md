@@ -24,6 +24,7 @@
 ## Code
 
 ```C#
+using System;
 
 // Function to add two numbers and return the result
 public static int Add(int a, int b)
@@ -39,7 +40,7 @@ public static void RandomFxn(ref int a, out int b)
 }
 
 // Main method
-public static void Run()
+public static void Main()
 {
     // Arrays: Arrays store multiple values of the same type
     int[] ageArray = new Int32[5] { 27, 25, 21, 22, 21 };  // Array of ages
