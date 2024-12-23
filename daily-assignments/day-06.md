@@ -1,4 +1,4 @@
-# Day 6 - 20th Dec, 2024
+# Day 6 - 22nd Dec, 2024
 
 ## Write about:
 
