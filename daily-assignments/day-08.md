@@ -16,6 +16,24 @@
 
 ---
 
+## Write in long about:
+
+### C#
+
+### .NET
+
+### .NET Framework
+
+### ASP.NET
+
+### .NET Core and it's Architecture
+
+### Compilation of .NET Core
+
+### CLR
+
+---
+
 ## Code
 
 ```C#
