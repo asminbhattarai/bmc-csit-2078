@@ -107,8 +107,6 @@ namespace Days
             students.Remove(10);
             printCollectionItems(students);
 
-
-
             // Hold the console window open until a key is pressed
             Console.ReadKey();
         }
