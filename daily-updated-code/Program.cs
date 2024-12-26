@@ -8,7 +8,7 @@ class Display
     static void Main(string[] args)
     {
         // Set the start and end of the valid day range
-        int start = 1, end = 6;
+        int start = 1, end = 7;
 
         // This variable keeps track of whether the user entered a valid day
         bool validSelection = false;
@@ -63,6 +63,13 @@ class Display
                     // If the user selects day 6,
                     // call Day06.Run() and set validSelection to true to stop the loop
                     Day06.Run();
+                    validSelection = true;
+                    break;
+
+                case "7":
+                    // If the user selects day 7,
+                    // call Day07.Run() and set validSelection to true to stop the loop
+                    Day07.Run();
                     validSelection = true;
                     break;
 
