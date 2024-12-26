@@ -8,7 +8,7 @@ class Display
     static void Main(string[] args)
     {
         // Set the start and end of the valid day range
-        int start = 1, end = 7;
+        int start = 1, end = 8;
 
         // This variable keeps track of whether the user entered a valid day
         bool validSelection = false;
@@ -18,7 +18,7 @@ class Display
         {
             // Prompt the user to select a day
             Console.Write($"Select a day to run ({start}-{end}): ");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
             Console.WriteLine();
 
             // Check the user input and determine if it's valid
@@ -70,6 +70,13 @@ class Display
                     // If the user selects day 7,
                     // call Day07.Run() and set validSelection to true to stop the loop
                     Day07.Run();
+                    validSelection = true;
+                    break;
+
+                case "8":
+                    // If the user selects day 8,
+                    // call Day08.Run() and set validSelection to true to stop the loop
+                    Day08.Run();
                     validSelection = true;
                     break;
 
