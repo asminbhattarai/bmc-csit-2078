@@ -17,13 +17,13 @@ namespace Days
         {
             // Fields
             public string Name { get; set; }
-            private string foodType;
+            private string? foodType;
             public int NoOfFingers { get; set; }
 
             // Property for foodType
             public string FoodType
             {
-                get => foodType;
+                get => foodType ?? "Unknown";
                 set => foodType = value;
             }
 
@@ -43,6 +43,12 @@ namespace Days
 
             // Abstract method to be implemented by derived classes
             public abstract void Speak();
+
+            // A function
+            public void SpeakWithGreeting()
+            {
+                Console.WriteLine($"{Name} speaks: 'Welcome!'");
+            }
         }
 
         // Sealed class that cannot be inherited from

@@ -14,12 +14,12 @@ namespace Days
         public class Human
         {
             public string name;  // Public field for the name
-            private string foodType;  // Private field for the foodType
+            private string? foodType;  // Private field for the foodType
             public int noOfFingers;   // Public field for the number of fingers
 
             // Property for FoodType with getter and setter
             // Properties allow controlled access to fields (here 'foodType')
-            public string FoodType
+            public string? FoodType
             {
                 get { return foodType; }  // Returns the value of 'foodType' field
                 set { foodType = value; } // Sets the value of 'foodType' field
@@ -82,7 +82,7 @@ namespace Days
             defaultHuman.DisplayInfo();
 
             // Creating a Student object with custom values
-            Student meAgain = new Student(me.name, me.FoodType, me.noOfFingers, "BMC");
+            Student meAgain = new Student(me.name, "Momo", me.noOfFingers, "BMC");
             // Display the information of the 'student' object
             meAgain.DisplayInfo();
 

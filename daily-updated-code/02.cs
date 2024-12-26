@@ -14,9 +14,9 @@ namespace Days
 
             // Input two numbers from the user
             Console.Write("Enter first number: ");
-            string aStr = Console.ReadLine();  // Read the first number input as a string
+            string? aStr = Console.ReadLine();  // Read the first number input as a string
             Console.Write("Enter second number: ");
-            string bStr = Console.ReadLine();  // Read the second number input as a string
+            string? bStr = Console.ReadLine();  // Read the second number input as a string
 
             // Convert string inputs to integers
             int aInt = Convert.ToInt32(aStr);  // Convert the first string to an integer
@@ -63,11 +63,12 @@ namespace Days
 
             // Input the user's name
             Console.Write("\nEnter your name: ");
-            string str = Console.ReadLine();  // Read the name input as a string
+            // Read the name input as a string, if null input Y/N is assigned
+            string str = Console.ReadLine() ?? "Y/N";
 
             // Convert the name to uppercase and lowercase, and print the output
-            string upperStr = str.ToUpper();
-            string lowerStr = str.ToLower();
+            string? upperStr = str.ToUpper();
+            string? lowerStr = str.ToLower();
             Console.WriteLine("Your name in uppercase is " + upperStr + ".");
             Console.WriteLine("Your name in lowercase is " + lowerStr + ".");
 
