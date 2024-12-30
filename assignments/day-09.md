@@ -6,23 +6,13 @@
 
 ### Calculator (home assignment)
 > #### Submit on Tuesday, 31st December, 2024
+> #### Submit video of the application
+> #### Worth 1 Mark
 
 ---
 
-## Code (Notepad)
+## Code
 
-```C#
+### [Notepad](../applications/01-notepad/)
 
-// To be added
-
-```
-
----
-
-## Code (Calculator)
-
-```C#
-
-// To be added
-
-```
+### [Calculator](../applications/02-calculator/)
