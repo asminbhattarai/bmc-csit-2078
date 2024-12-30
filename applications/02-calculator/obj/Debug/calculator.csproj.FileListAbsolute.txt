@@ -1,0 +1,10 @@
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\bin\Debug\calculator.exe.config
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\bin\Debug\calculator.exe
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\bin\Debug\calculator.pdb
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.Calculator.resources
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.exe
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\calculator\obj\Debug\calculator.pdb
