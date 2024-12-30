@@ -12,8 +12,9 @@ NET Centric daily assignments and practices
 
 ## Directories
 
-1. [Daily Assignments](./daily-assignments/)
-2. [Daily Codes](./daily-updated-code/)
+1. [Assignments](./assignments/) - Each day topics and such
+2. [Codes](./codes/) - Codes upto day 08
+3. [Applications](./applications/) - Applications code files from day 09
 
 ## How to Run the Code
 
