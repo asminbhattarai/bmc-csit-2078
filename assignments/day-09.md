@@ -1,5 +1,15 @@
 # Day 9 - 29th Dec, 2024
 
+## Write about:
+
+### Events VS Delegates
+
+### MVC VS Web Forms
+
+### Drawbacks of Web Forms
+
+---
+
 ## Make window form applications:
 
 ### Notepad (in class)
