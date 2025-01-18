@@ -5,11 +5,6 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CENTRIC", "CENTRIC.csproj", "{18BCF0EC-5364-4149-852D-808DB62F6259}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D5D2FEF-E235-4C59-A7A6-141A5CD274F9}"
-	ProjectSection(SolutionItems) = preProject
-		08.cs = 08.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

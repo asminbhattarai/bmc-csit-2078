@@ -87,8 +87,4 @@ return file("/file/la", "application/png");
 
 ## Code:
 
-```C#
-
-// To be added
-
-```
+See Views and Controllers folders of [03-mvc](../applications/03-mvc).

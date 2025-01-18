@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MVC.Models.Product>
+
+<h2>Product List</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+        </tr>
+    }
+</table>
+
+<!-- Link to download the product list as a TXT file -->
+<a href="@Url.Action("DownloadProductListAsTxt", "Product")" class="btn btn-primary">Download Product List as TXT</a>

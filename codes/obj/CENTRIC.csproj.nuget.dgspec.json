@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\daily-updated-code\\CENTRIC.csproj": {}
+    "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\codes\\CENTRIC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\daily-updated-code\\CENTRIC.csproj": {
+    "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\codes\\CENTRIC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\daily-updated-code\\CENTRIC.csproj",
+        "projectUniqueName": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\codes\\CENTRIC.csproj",
         "projectName": "CENTRIC",
-        "projectPath": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\daily-updated-code\\CENTRIC.csproj",
+        "projectPath": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\codes\\CENTRIC.csproj",
         "packagesPath": "C:\\Users\\bhtas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\daily-updated-code\\obj\\",
+        "outputPath": "C:\\Users\\bhtas\\OneDrive\\Desktop\\Asmin\\bmc-csit-2078\\Semesters\\Semester-6\\NET-Centric-Computing\\codes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
