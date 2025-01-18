@@ -2,7 +2,7 @@
 
 ## Write about:
 
-### Model View Controller (MCV)
+### Model View Controller (MVC)
 
 > #### Architecture, Use, Life Cycle
 > #### Controller, View, Dependencies
