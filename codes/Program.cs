@@ -1,6 +1,5 @@
-﻿// Run this file or CENTRIC.csproj to select a day and view output
-
-using System;
+﻿using System;
+using System.Reflection; // Required for reflection
 using Days; // Import the Days namespace to directly access Day01, Day02, etc.
 
 class Display
@@ -8,92 +7,61 @@ class Display
     static void Main(string[] args)
     {
         // Set the start and end of the valid day range
-        int start = 1, end = 10;
-
-        // This variable keeps track of whether the user entered a valid day or 0
-        bool keepGoing = true;
+        int start = 1, end = 10;  // You can change the 'end' to control the range of days
+        bool keepGoing = true;  // This variable keeps track of whether the user entered a valid day or 0
 
         // This loop asks the user for a valid day until they enter a correct one or 0
         while (keepGoing)
         {
             // Prompt the user to select a day
             Console.Write($"Select a day to run ({start}-{end}) or 0 to exit: ");
-            string? input = Console.ReadLine();
-            Console.Clear();
+            string? input = Console.ReadLine();  // Get user input
+            Console.Clear();  // Clear the console for better readability
 
             // Check the user input and determine if it's valid
-            switch (input)
+            if (int.TryParse(input, out int day))
             {
-                case "0":
-                    // If the user enters 0,
-                    // exit the loop
+                if (day == 0)
+                {
+                    // If the user enters 0, exit the loop
                     keepGoing = false;
-                    break;
+                }
+                else if (day >= start && day <= end)
+                {
+                    // Build the name of the DayXX class dynamically (e.g., Day01, Day02, ...)
+                    string methodName = $"Day{day:D2}";  // Format day as "01", "02", etc.
 
-                case "1":
-                    // If the user selects day 1,
-                    // call Day01.Run()
-                    Day01.Run();
-                    break;
+                    // Use reflection to find the corresponding DayXX class
+                    Type? dayType = Type.GetType($"Days.{methodName}");
 
-                case "2":
-                    // If the user selects day 2,
-                    // call Day02.Run()
-                    Day02.Run();
-                    break;
+                    // If the type is found, invoke the Run method
+                    if (dayType != null)
+                    {
+                        // Get the 'Run' method of the DayXX class
+                        MethodInfo? methodInfo = dayType.GetMethod("Run");
 
-                case "3":
-                    // If the user selects day 3,
-                    // call Day03.Run()
-                    Day03.Run();
-                    break;
-
-                case "4":
-                    // If the user selects day 4,
-                    // call Day04.Run()
-                    Day04.Run();
-                    break;
-
-                case "5":
-                    // If the user selects day 5,
-                    // call Day05.Run()
-                    Day05.Run();
-                    break;
-
-                case "6":
-                    // If the user selects day 6,
-                    // call Day06.Run()
-                    Day06.Run();
-                    break;
-
-                case "7":
-                    // If the user selects day 7,
-                    // call Day07.Run()
-                    Day07.Run();
-                    break;
-
-                case "8":
-                    // If the user selects day 8,
-                    // call Day08.Run()
-                    Day08.Run();
-                    break;
-
-                case "9":
-                    // If the user selects day 9,
-                    // call Day09.Run()
-                    Day09.Run();
-                    break;
-
-                case "10":
-                    // If the user selects day 10,
-                    // call Day10.Run()
-                    Day10.Run();
-                    break;
-
-                // Handle invalid day selection
-                default:
+                        if (methodInfo != null)
+                        {
+                            // Call the Run method
+                            methodInfo.Invoke(null, null);
+                        }
+                    }
+                    else
+                    {
+                        // If DayXX is not found, display an error message
+                        Console.WriteLine("Day not found.\n");
+                    }
+                }
+                else
+                {
+                    // Handle invalid day selection (out of range)
                     Console.WriteLine("Invalid day selected. Please try again.\n");
-                    break;
+                }
+            }
+            else
+            {
+                // Handle invalid input that isn't a number
+                Console.WriteLine("Invalid input. Please try again.\n");
             }
 
             // Few lines for better readability
