@@ -1,4 +1,4 @@
-# Day 14 - 26tht Jan, 2025
+# Day 14 - 26th Jan, 2025
 
 ## Write about:
 
