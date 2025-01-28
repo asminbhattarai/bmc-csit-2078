@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model UserPreference
+
+<div class="container mt-4">
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Message"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="row">
+        <!-- Session Management -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Session Management</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="SetSession" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Theme" class="form-label">Theme</label>
+                            <select asp-for="Theme" class="form-select">
+                                <option value="light">Light</option>
+                                <option value="dark">Dark</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label asp-for="Language" class="form-label">Language</label>
+                            <select asp-for="Language" class="form-select">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label asp-for="FontSize" class="form-label">Font Size</label>
+                            <input asp-for="FontSize" type="number" class="form-control" min="8" max="24">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Save Session</button>
+                        <a asp-action="ClearSession" class="btn btn-warning">Clear Session</a>
+                    </form>
+
+                    <div class="mt-3">
+                        <h4>Current Session Values:</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Theme: @Model.Theme</li>
+                            <li class="list-group-item">Language: @Model.Language</li>
+                            <li class="list-group-item">Font Size: @Model.FontSize</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie Management -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Cookie Management</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="SetCookie" method="post">
+                        <div class="mb-3">
+                            <label for="theme" class="form-label">Theme</label>
+                            <select name="theme" class="form-select">
+                                <option value="light" selected="@(ViewData["CookieTheme"]?.ToString() == "light")">Light</option>
+                                <option value="dark" selected="@(ViewData["CookieTheme"]?.ToString() == "dark")">Dark</option>
+                                <option value="custom" selected="@(ViewData["CookieTheme"]?.ToString() == "custom")">Custom</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Save Cookie</button>
+                        <a asp-action="ClearCookie" class="btn btn-warning">Clear Cookie</a>
+                    </form>
+
+                    <div class="mt-3">
+                        <h4>Current Cookie Values:</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Theme: @ViewData["CookieTheme"]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
