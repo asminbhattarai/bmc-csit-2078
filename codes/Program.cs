@@ -7,7 +7,7 @@ class Display
     static void Main(string[] args)
     {
         // Set the start and end of the valid day range
-        int start = 1, end = 10;  // You can change the 'end' to control the range of days
+        int start = 1, end = 11;  // You can change the 'end' to control the range of days
         bool keepGoing = true;  // This variable keeps track of whether the user entered a valid day or 0
 
         // This loop asks the user for a valid day until they enter a correct one or 0
