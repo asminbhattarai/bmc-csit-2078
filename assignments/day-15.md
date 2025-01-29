@@ -7,7 +7,7 @@
 ### Entity Framework Core
 > #### ConnectionString
 > #### Initiating Entity Framework Core
-> #### Difference EF Core Approaches
+> #### Different EF Core Approaches
 > #### Model Creation
 > #### Middleware
 > #### Migration
