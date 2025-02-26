@@ -43,4 +43,4 @@
 
 ## Code:
 
-`To update`
+See [08-state-management-lite](../applications/08-state-management-lite/).

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentModelForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a317f86d30f1c4330437faceb72aa939d9fefe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36aa86ec1142db5c71ca473b7885e6efdde543f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentModelForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentModelForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

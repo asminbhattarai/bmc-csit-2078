@@ -113,6 +113,11 @@ namespace calculator
             leftOperand = rightOperand = 0; // Reset operands to 0
         }
 
+        private void Calculator_Load(object sender, EventArgs e)
+        {
+
+        }
+
         // Event handler for changing the sign of the current number (positive to negative or vice versa)
         private void ChangeSign(object sender, EventArgs e)
         {

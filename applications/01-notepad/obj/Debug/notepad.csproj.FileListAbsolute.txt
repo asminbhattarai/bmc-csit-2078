@@ -8,3 +8,13 @@ C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Cen
 C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\notepad\obj\Debug\notepad.exe
 C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\notepad\obj\Debug\notepad.pdb
 C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\notepad\obj\Debug\notepad.NotePad.resources
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\bin\Debug\notepad.exe.config
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\bin\Debug\notepad.exe
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\bin\Debug\notepad.pdb
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.csproj.AssemblyReference.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.NotePad.resources
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.Properties.Resources.resources
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.csproj.GenerateResource.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.csproj.CoreCompileInputs.cache
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.exe
+C:\Users\bhtas\OneDrive\Desktop\Asmin\bmc-csit-2078\Semesters\Semester-6\NET-Centric-Computing\applications\01-notepad\obj\Debug\notepad.pdb

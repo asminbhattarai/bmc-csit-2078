@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Form";
+}
+
+<h2>Form</h2>
+
+<form method="post" asp-action="SubmitForm" asp-controller="Home" onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <span id="nameError" class="error-message"></span>
+    <br><br>
+
+    <label for="roll">Roll:</label>
+    <input type="text" id="roll" name="roll">
+    <span id="rollError" class="error-message"></span>
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    function validateForm() {
+        let isValid = true;
+
+        // Name validation
+        let name = document.getElementById("name").value;
+        let nameError = document.getElementById("nameError");
+        if (name.length < 4) {
+            nameError.textContent = "Name must be at least 4 characters.";
+            isValid = false;
+        } else {
+            nameError.textContent = "";
+        }
+
+        // Roll validation
+        let roll = document.getElementById("roll").value;
+        let rollError = document.getElementById("rollError");
+        if (!/^\d+$/.test(roll)) {
+            rollError.textContent = "Roll must be a number.";
+            isValid = false;
+        } else {
+            rollError.textContent = "";
+        }
+
+        return isValid; // If false, form will not submit
+    }
+</script>
+
+<style>
+    .error-message {
+        color: red;
+        font-size: 14px;
+    }
+</style>

@@ -16,6 +16,8 @@
 
 ### DLL
 
+---
+
 ```
 
 [Nitesh]
@@ -117,7 +119,7 @@ In this repo, MVC applications are in [this folder](../applications/).
 
 8. Click on `Publish` button located on top right.
 
-9. Install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer)
+9. Install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer) (CTRL + click to open in new tab).
 
 10. Open Control Panel -> Programs -> Turn Windows Features on or off.
 
