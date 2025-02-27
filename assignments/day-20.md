@@ -14,7 +14,11 @@
 
 ### Claim and Policy
 
-### ~~IdentityDbContext, Application Context, Async, Migration~~ (Repeated)
+### IdentityDbContext
+
+### ApplicationContext
+
+### ~~Async, Migration~~ (Repeated)
 
 ---
 
