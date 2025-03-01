@@ -127,7 +127,7 @@ In this repo, MVC applications are in [this folder](../applications/).
 
 12. Optionally, check mark all of subcategories.
 
-13. Copy your `publish` folder in `C:\inetpub\wwwroot\`. (Rename if you want to)
+13. Copy your `publish` folder in `C:\inetpub\wwwroot\`. Rename `publish` folder if you want to.
 
 14. Search `inetmgr` and open IIS Manager.
 
@@ -135,11 +135,11 @@ In this repo, MVC applications are in [this folder](../applications/).
 
 16. Right click on Sites -> Add Website.
 
-17. Assign a Site Name and set physical path as `C:\inetpub\wwwroot\your-publish-folder-name` (See step 10).
+17. Assign a Site Name and set physical path as `C:\inetpub\wwwroot\your-publish-folder-name` (See step 13).
 
 18. Note your Application Pool
 
-19. Change Port to any: 81, 82, 83, .... (since 90 may already be in use).
+19. Change Port to any: 81, 82, 83, .... (since 80 may already be in use).
 
 20. Do not change or assign Host name.
 
